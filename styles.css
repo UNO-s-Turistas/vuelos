@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(fondo.jpg); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+h1 {
+    color: #000000; /* Título en blanco */
+    margin-bottom: 15px; /* Menos espacio debajo del título */
+    text-align: center; /* Centrar el título */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con algo de transparencia */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Alineación vertical de inputs */
+    align-items: center; /* Centrar inputs dentro del formulario */
+    width: 350px; /* Ancho del formulario */
+}
+
+label {
+    display: block;
+    margin-top: 5px; /* Menos espacio entre la etiqueta y el input */
+    color: #000000; /* Texto de etiquetas en negro */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    padding: 10px;
+    margin-top: 5px; /* Espacio reducido entre inputs */
+    width: 100%;
+    border: 1px solid #dddddd; /* Bordes claros */
+    background-color: #f9f9f9; /* Fondo de inputs muy claro */
+    color: #000000; /* Texto de inputs en negro */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Botón azul */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; /* Espacio reducido antes del botón */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
+
+#results,
+#reservations {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+    margin-top: 20px; /* Espacio antes de la tabla */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Bordes de las celdas */
+    text-align: left; /* Alinear texto a la izquierda */
+    padding: 8px; /* Espaciado interno de las celdas */
+}
+
+th {
+    background-color: rgba(0, 123, 255, 0.1); /* Fondo suave para encabezados */
+    color: #007BFF; /* Color de texto para encabezados */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 123, 255, 0.05); /* Fondo alternativo para filas pares */
+}
+
+tr:hover {
+    background-color: rgba(0, 123, 255, 0.2); /* Resaltar fila al pasar el mouse */
+}
+
+.toggle-link {
+    margin-top: 10px;
+    text-align: center; /* Centra el texto */
+}
+
+.toggle-link a {
+    color: #007BFF; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.toggle-link a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+
