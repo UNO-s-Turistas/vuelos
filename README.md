@@ -1,1 +1,1 @@
-# vuelos
+La página al entrar encontrara el registro, donde podra crear un nuevo usuario o en su defecto ir al inicio de sesion para validar sus credenciales, al validarlas encontrara la seccion de buscar vuelos, donde podra elegir unos de los vuelos ya preestablecidos y realizar la reservación, despues llevara a una sección donde con su nombre de usuario podra revisar todos aquellos vuelos reservados por el usuario, cada ventana contiene un apartado de regreso para poder volver a la sección anterior.
